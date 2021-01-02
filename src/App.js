@@ -71,8 +71,6 @@ function App() {
     });
   }, [user]);
 
-  const sum = () => {};
-
   return (
     <div className="app">
       {!user ? (
