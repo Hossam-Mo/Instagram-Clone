@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+}
+
+.main {
+  width: 50vw;
+  height: 50vh;
+
+  background-color: white;
+
+  margin: auto;
+  margin-top: 25vh;
+  display: flex;
+}
+.as {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 150px;
+}
+.ragnar {
+  color: fuchsia;
+  background-color: black;
+
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+
+  margin-bottom: 10px;
+}
+.fff {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 60%;
+}
+.bbb {
+  display: flex;
+  flex-direction: column;
+}
+.ssssss {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+}
+.numbers {
+  width: 70px;
+  height: 40px;
+  font-size: 30px;
+  color: fuchsia;
+  background-color: black;
+  margin: 20px;
+}
+
+.app {
+  height: 100vh;
+}
+.app_add {
+  outline: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.app_add > .MuiIconButton-root {
+  color: white;
+  background-color: gray;
+  border: 2px solid lightgrey;
+  opacity: 0.5;
+}
+.app_chat {
+  background-color: white;
+  margin: 20vw;
+  margin-top: 30px;
+  margin-bottom: 0;
+  border: 1px solid lightgray;
+  display: flex;
+  border-radius: 5px;
+}
+
+.app_cLeft {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 600px;
+  border: 1px solid lightgray;
+}
+.chat_left1 {
+  flex: 0.4;
+  height: 80vh;
+}
+.chat_right {
+  flex: 0.6;
+  border-left: 1px solid lightgray;
+}
+@media (max-width: 800px) {
+  .app_main {
+    padding: 0;
+  }
+}
+@media (max-width: 750px) {
+  .chat_left1 {
+    display: none;
+  }
+  .app_chat {
+    margin: 0px;
+    margin-top: 25px;
+  }
+  .app_cLeft {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+}
+.dark {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: black;
+
+  z-index: -1;
+}

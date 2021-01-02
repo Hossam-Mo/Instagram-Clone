@@ -1,0 +1,142 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  font-family: serif;
+}
+.login_main {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: white;
+  align-items: center;
+  margin: auto;
+  margin-top: 10vh;
+  padding: 30px;
+  border: 1px solid rgb(214, 214, 214);
+}
+.login_form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.login_form > .MuiInputBase-root {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.login_form > .MuiButton-root {
+  color: white;
+  background-color: rgb(110, 182, 255);
+  border-radius: 10px;
+  margin-top: 15px;
+  height: 30px;
+  text-transform: none;
+}
+.login_logo {
+  object-fit: contain;
+  height: 70px;
+  margin-bottom: 30px;
+}
+.login_hr {
+  width: 120px;
+  border-bottom: 2px solid lightgray;
+  margin: 10px;
+}
+.login_h {
+  display: flex;
+  margin-top: 30px;
+}
+.login_or {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.login_face {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  font-weight: bolder;
+  color: rgb(60, 60, 196);
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: serif;
+}
+.facebook {
+  margin-right: 10px;
+  padding: 2px;
+}
+.login_sign {
+  display: flex;
+
+  align-items: center;
+  margin: auto;
+  background-color: white;
+  width: 300px;
+  padding: 30px;
+  margin-top: 30px;
+  border: 1px solid rgb(214, 214, 214);
+}
+.login_sign > .MuiButton-root {
+  color: rgb(77, 77, 250);
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  top: 2px;
+  text-transform: none;
+}
+.login_get1 {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+  font-weight: 500;
+}
+.login_get {
+  display: flex;
+  width: 300px;
+  margin: auto;
+
+  align-items: center;
+  padding: 30px;
+
+  margin-bottom: 0;
+}
+.get {
+  cursor: pointer;
+  object-fit: contain;
+  height: 40px;
+  margin: 10px;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.model {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.model_logo {
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+.model_input {
+  padding: 5px;
+}
+.model_form > .MuiInputBase-root {
+  margin-bottom: 30px;
+  border: 1px solid gray;
+}
+.model_form {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,32 @@
+.message {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  font-family: serif;
+}
+.message1 {
+  display: flex;
+  align-items: center;
+  font-family: serif;
+}
+
+.message_avatar {
+  margin-right: 20px;
+}
+.message_p {
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  padding: 20px;
+  font-size: 15px;
+}
+.message_p1 {
+  background-color: rgb(235, 235, 235);
+  border-radius: 25px;
+  padding: 20px;
+  font-size: 15px;
+  margin-left: auto;
+}
+.message1 > .MuiAvatar-colorDefault {
+  background-color: salmon;
+  font-family: serif;
+}

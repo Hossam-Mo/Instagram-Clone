@@ -1,0 +1,47 @@
+.mess {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+  font-family: serif;
+  cursor: pointer;
+}
+.mess:hover {
+  background-color: rgb(241, 241, 241);
+  transition: all 0.5s ease-out;
+  opacity: 0.9;
+}
+.mess_ava {
+  display: flex;
+  align-items: center;
+}
+.mess_ava > h3 {
+  font-weight: 600;
+}
+.mess_ava > .MuiAvatar-root {
+  width: 60px;
+  height: 60px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.mess_ava > .MuiAvatar-colorDefault {
+  color: #fafafa;
+  background-color: salmon;
+  font-family: serif;
+}
+.mess_avatar {
+  margin-right: 10px;
+}
+.times {
+  color: gray;
+}
+
+@media (max-width: 600px) {
+  .mess_ava > .MuiAvatar-root {
+    width: 45px;
+    height: 45px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}

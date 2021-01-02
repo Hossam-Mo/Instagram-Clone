@@ -1,0 +1,23 @@
+.app_main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+.main_right {
+  position: sticky;
+  top: 100px;
+}
+
+.main_left {
+  margin-right: 70px;
+}
+
+@media (max-width: 800px) {
+  .main_right {
+    display: none;
+  }
+  .main_left {
+    margin-right: 0;
+  }
+}

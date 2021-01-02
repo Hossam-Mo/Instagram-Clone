@@ -1,0 +1,33 @@
+.ex {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  gap: 20px;
+}
+
+.ex_imgs {
+  object-fit: cover;
+  height: 20vw;
+
+  width: 20vw;
+  cursor: pointer;
+  transition: transform 450ms;
+}
+.ex_imgs:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 780px) {
+  .ex {
+    width: 100%;
+    gap: 5px;
+    margin-top: 30px;
+  }
+  .ex_imgs {
+    height: 33vw;
+    width: 100%;
+  }
+}
